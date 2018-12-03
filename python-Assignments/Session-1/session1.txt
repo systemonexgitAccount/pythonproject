@@ -1,0 +1,175 @@
+1.Assign the value 5 to a, and value 6 to b. Assign the value of a + b to variable c.
+
+Examples
+
+
+    >>> a
+    5
+    >>> b
+    6
+    >>> c
+    11
+
+solution
+a =5
+b =6
+c =(a+b)
+
+2.It is important to take note of the difference between adding numbers and 'adding' string. 5 + 5 will not produce the same result as '5' + '5'.
+Question:
+[MCQ] Which of the following will produce the right result?
+2 + 5 produces '25'
+'2' + 5 produces '25'
+'2' + '5' produces '25'
+2 + '5' produces '25'
+
+solution
+'2' + '5' produces '25'
+
+3.Numbers that contains decimal point are called floating point numbers. The type(x) function will return if the argument x is a float. You can use the float(x) and int(x) function to convert values between float and integer.
+
+
+
+Solution
+# Change the type of the variable x to float
+# Change the type of variable y to integer
+x = 123446754336788543835697
+y = 3.14159265358979323846
+x =float(123446754336788543835697)
+y =3
+
+4.Numbers that contains decimal point are called floating point numbers. The type(x) function will return if the argument x is a float. You can use the float(x) and int(x) function to convert values between float and integer.
+
+solution:
+# Assign foobar which gives the output shown in the last example.
+# Hint: Use the triple quote as the outermost quote
+foobar =('''"No, thanks, Mom," I said, "I don't know how long it will take."''')
+
+5.Declare a string literal by enclosing the literal using single, double or triple quotes. Triple quote allows the literal to span multiple lines.
+
+
+
+Solution:
+
+# Assign foobar which gives the output shown in the last example.
+# Hint: Use the triple quote as the outermost quote
+foobar =('''"No, thanks, Mom," I said, "I don't know how long it will take."''')
+
+
+6.Certain mathematical operations such as addition and multiplication can be used on the String datatype. Study the examples given below to see how it works:
+
+
+solution:
+
+# Assign 'HelloWorld!' to variable a
+a =('HelloWorld!')
+
+# b contains 'HelloWorld!HelloWorld!HelloWorld!HelloWorld!HelloWorld!'
+b = ('HelloWorld!' * 5)
+
+7.You can make use of the len(x) function to find out the number of characters in a string.
+
+
+solution:
+
+
+greeting = "Hello Google!" 
+# number of characters stored in the variable greeting 
+number_of_char = len(greeting) 
+
+# repeat the greetings based on the number of character in 'greeting' 
+greetings = number_of_char * greeting 
+
+8. Adding two strings or making multiple copies of the same string.
+
+SOLUTION:
+# Write a function, given a string of characters, return the string together with '_'s of the same length.
+def underline(title):
+    return title + '\n' + len(title) * '_'
+
+9.Introducing some string methods.
+
+solution:
+
+# Use one or more string methods in above examples, extract the substring
+# surrounded by 'xyz' at the beginning and end. Replace the ',' in the substring with '|'.
+# and remove all trailing space.
+
+str1  = 'abcefghxyzThis,is,the,target,string  xyzlkdjf'
+idx1 = str1.find('xyz'   )                   
+idx2 = str1.find('xyz'   , idx1+1)            
+str1 = str1[idx1+3:idx2].replace(',', '|'   )   
+str1 = str1.strip()                                                     
+
+
+10.Like other programming languages, Python also has some basic types like numbers, strings, lists and dictionaries.
+
+solution:
+
+# Assign arbitrary values to the variables such that they are of the types used in the examples
+a =('hello vishnu')
+b =10
+c =10.5
+d =[1,2,3,4,]
+
+11.There are some rules in the naming of variables.
+
+Question:
+[MCQ] Which of the following are not valid variable names in Python?
+a: _hello
+b: $hello
+c: hello
+d: hello world
+
+solution:
+
+b and d
+
+
+12.A integer or floating-point number with trailing 'j' or 'J' is a complex number.
+
+solution:
+
+# Compute the sum and product of 2 complex numbers:
+# (2+3j) and (4+5j)
+a = (2+3j)
+b = (4+5j)
+sum_ab = (2+3j)+(4+5j)
+prod_ab = (-7+22j)
+
+
+13.
+
+
+
+
+14. solution:
+
+# Extract each word from 'greetings' and assign to 
+# variables 'first', 'middle' and 'last'.
+greetings = "How are you"
+first  = greetings[ : 3]
+middle = greetings[4 :7 ]
+last   = greetings[ 8: ]
+
+15.solution:
+
+Sol:
+a = 25.0
+b = 031
+c = 0x19
+
+16.solution:
+
+option d
+
+
+17.solution:
+option A
+
+18. option C
+
+
+
+
+
